@@ -25,35 +25,38 @@
 
   <!-- MODIFY BELOW ONLY. INCLUDE CUSTOM IMPORTS HERE -->
   <link rel="stylesheet" href="index.css">
-  <script src="index.js" defer></script>
-
+ 
   <!-- MODIFY ABOVE ONLY -->
  
   </head>
   <body>
     
-<section class = "container center-align">
+<section class = "main-container container center-align">
 <h1 class = "title">Random Sean Pics</h1>
 
 <div class = "image-box">
   <img id="mainImage" src="" alt="Random Sean Picture" class="responsive-img sean-image" >    
 </div>
 
+<div class ="quote-section"> 
+<p class ="title">Random Sean Quote</p>
+<p class ="quote-text" id = "quote-text"></p>
+<p class ="quote-credits" id = "quote-credits"></p>
+
+</div>
+
+
+
+<button class ="action-button" id="newImageButton" onclick="loadSeanImage()"><i class=" material-icons">image</i> New Image</button>
+<button class ="action-button" id="submitImageButton" onClick="submitImage()"><i class=" material-icons">send</i> Submit Image</button>
+<button class ="action-button" id="newQuoteButton" onClick="newQuote()"><i class=" material-icons">format_quote</i> New Quote</button>
 
 
 
 
 
-<button class ="action-button" id="newImageButton" onclick="reloadImage()"> New Image</button>
-<button class ="action-button" id="submitImageButton" onClick="submitImage()"> Submit Image</button>
-
-<div class ="credits-section"> 
-<p class ="madebytitle">Made by Kay Ramdath, with disapproval by Sean Maharaj.</p>
-<p class ="madebytitle">If you have any pictures you'd like to share, feel free to reach out!</p>
- </div>
-</section>
   <!-- FLEX BUTTONS AT BOTTOM -->
-  <section class = "flexicons-container">
+  <!-- <div class = "flexicons-container">
 
     
   <div class="flexicon">
@@ -90,11 +93,14 @@
 
 
   
-  </section>
+  </div> -->
+</section>
+
   <!-- MODIFY ABOVE ONLY -->
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   
+     <script src="index.js"></script>
+
   </body>
 </html>
         
