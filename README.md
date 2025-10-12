@@ -31,12 +31,6 @@ A fun little website that displays random pictures of Sean Maharaj.
 
 - Refresh the page or click the randomize button to see a new picture of Sean Maharaj.
 
-## Technologies Used
-
-- **HTML** (43%)
-- **CSS** (47.8%)
-- **JavaScript** (9.2%)
-
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or pull request to suggest improvements or add more pictures.
@@ -49,3 +43,7 @@ Contributions are welcome! Feel free to open an issue or pull request to suggest
 
 
 Made with ❤️ for fun!
+
+## Submiting an Image or a Quote
+
+Images/ Quotes can be sumbmited through the website, by pinging the Developer on Whatsapp with a message
